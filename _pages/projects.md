@@ -1,65 +1,41 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: Research themes in data-driven actuarial risk modeling.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 2
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+My research sits at the intersection of actuarial science, insurance analytics, and machine learning. I am especially interested in models that remain useful when risk data are scarce, fragmented, or rapidly changing.
 
-{% else %}
+## Climate and catastrophe risk
 
-<!-- Display projects without categories -->
+I study how climate and catastrophe data can support actuarial decision-making. This includes the collection and consolidation of heterogeneous data, the measurement of evolving hazards and exposures, and the translation of model output into interpretable risk insights.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+## Cyber risk and insurance
 
-  <!-- Generate cards for each project -->
+My cyber-risk research focuses on entity-specific assessment. By enriching public incident data with organizational characteristics and applying interpretable machine-learning methods, this work supports more granular underwriting and proactive risk mitigation.
 
-{% if page.horizontal %}
+### Featured work
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+**Entity-Specific Cyber Risk Assessment Using Insurtech-Empowered Risk Factors**
+
+Jiayi Guo, Linfeng Zhang, and Zhiyu Quan · _Variance_, Vol. 19, 2026
+
+The study combines public cyber-incident records with entity-specific organizational features. Multi-label classification and multi-output regression models estimate incident occurrence and annual frequency, while interpretable machine-learning methods identify potential cyber-insurance rating factors.
+
+[Read the paper](https://variancejournal.org/article/155715.pdf){: .btn .btn-primary }
+[View the arXiv version](https://arxiv.org/abs/2507.08193){: .btn .btn-outline-primary }
+
+## Methods and applications
+
+- Predictive modeling for insurance and risk management
+- Interpretable machine learning and feature attribution
+- Multi-label classification and multi-output regression
+- Data integration, enrichment, and quality assessment
+- Decision support for underwriting and risk mitigation
+
+## Current work
+
+My current projects include automated machine learning in insurance, climate data innovation and consolidation, and research on common pitfalls in actuarial data preparation. Across these topics, I focus on methods that are reproducible, interpretable, and useful in practice.

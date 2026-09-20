@@ -1,189 +1,117 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jiayi Guo
+  label: Ph.D. Student in Mathematics, Actuarial and Risk Management Sciences
+  email: jg54@illinois.edu
+  location: Champaign, Illinois
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Actuarial researcher studying climate risk, catastrophe loss modeling, insurance analytics, and data-driven risk assessment.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Jiayi-Guo-gia
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jiayiguo-jg54
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Illinois Urbana-Champaign
+        location: Champaign, Illinois
+        url: https://illinois.edu/
+        area: Mathematics, concentration in Actuarial and Risk Management Sciences
+        studyType: Ph.D.
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Professor Zhiyu Quan"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Illinois Urbana-Champaign
+        location: Champaign, Illinois
+        url: https://illinois.edu/
+        area: Predictive Analytics and Risk Management
+        studyType: M.S.
+        start_date: 2022
+        end_date: 2023
+
+      - institution: Dalian Maritime University
+        location: Dalian, China
+        url: https://english.dlmu.edu.cn/
+        area: Statistics
+        studyType: B.S.
+        start_date: 2018
+        end_date: 2022
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Illinois Risk Lab, University of Illinois Urbana-Champaign
+        position: Graduate Supervisor
+        location: Champaign, Illinois
+        url: https://asrm.illinois.edu/illinois-risk-lab
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Relativity
-          - Description 2.
+          - Climate Data Innovation and Consolidation projects in collaboration with the Society of Actuaries.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Department of Actuarial and Risk Management Sciences, University of Illinois Urbana-Champaign
+        position: Graduate Research and Teaching Assistant
+        location: Champaign, Illinois
+        start_date: 2024
+        end_date: Present
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Entity-Specific Cyber Risk Assessment Using Insurtech-Empowered Risk Factors
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Jiayi Guo
+          - Linfeng Zhang
+          - Zhiyu Quan
+        publisher: Variance, Vol. 19
+        releaseDate: 2026
+        url: https://doi.org/10.66573/001c.155715
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Fuzzy Rule-Based Models via Space Partition and Information Granulation
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Yunhui Pang
+          - Lidong Wang
+          - Yifei Liu
+          - Jiayi Guo
+        publisher: Neural Computing and Applications, 34(19), 16199-16211
+        releaseDate: 2022
+        url: https://doi.org/10.1007/s00521-022-06974-3
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Working Papers:
+      - label: "2026"
+        details: "Starting Off on the Wrong Foot: Pitfalls in Data Preparation. Submitted for review; with Panyi Dong and Zhiyu Quan."
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Awards:
+      - title: PARM Summer Research Fellow
+        awarder: University of Illinois Urbana-Champaign
+        date: 2026
+      - title: PARM Summer Research Fellow
+        awarder: University of Illinois Urbana-Champaign
+        date: 2025
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Presentations:
+      - label: "2026"
+        details: "Starting Off on the Wrong Foot: Pitfalls in Data Preparation. 29th International Congress on Insurance: Mathematics and Economics, Sungkyunkwan University, Seoul, South Korea."
+      - label: "2025"
+        details: Entity-Specific Cyber Risk Assessment Using Insurtech-Empowered Risk Factors. 60th Actuarial Research Conference, York University, Toronto, Canada.
+      - label: "2023"
+        details: Estimating the Climate-Change Impact on a Fixed-Income Investment Portfolio due to Physical and Transitional Risks. 58th Actuarial Research Conference, Drake University, Des Moines, Iowa.
+      - label: "2021"
+        details: Active Learning Method Based on Axiomatic Fuzzy Sets and Cost-Sensitive Classification. International Conference on Neural Computing for Advanced Applications, Guangzhou, China.
 
-      - name: English
-        summary: "Fluent"
+    Teaching:
+      - label: ASRM 555
+        details: Advanced Predictive Analytics — course development and grading (Spring 2025 and Spring 2026).
+      - label: ASRM 469
+        details: Casualty Actuarial Mathematics — course development, grading, and office hours (Spring 2025 and Spring 2026).
+      - label: ASRM 455
+        details: Predictive Analytics — course development, grading, and office hours (Fall 2024 and Fall 2025).
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Professional Exams:
+      - label: Society of Actuaries
+        details: Exam P; FAM (UEC); FM (UEC).
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Research Interests:
+      - label: Actuarial risk modeling
+        details: Climate risk, catastrophe risk modeling, insurance loss analytics, and cyber risk.
+      - label: Data-driven methods
+        details: Machine learning, physics-informed AI, predictive analytics, and data preparation.

@@ -2,14 +2,41 @@
 layout: page
 permalink: /teaching/
 title: TA
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching experience at the University of Illinois Urbana-Champaign.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+I serve as a graduate teaching assistant in the Department of Actuarial and Risk Management Sciences at the University of Illinois Urbana-Champaign. My work includes course development, grading, office hours, and supporting students as they connect actuarial theory with applied analytics.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+## Spring 2026
 
-{% include courses.liquid %}
+### ASRM 555 · Advanced Predictive Analytics
+
+Course development and grading.
+
+### ASRM 469 · Casualty Actuarial Mathematics
+
+Course development, grading, and office hours.
+
+## Fall 2025
+
+### ASRM 455 · Predictive Analytics
+
+Course development, grading, and office hours.
+
+## Spring 2025
+
+### ASRM 555 · Advanced Predictive Analytics
+
+Course development and grading.
+
+### ASRM 469 · Casualty Actuarial Mathematics
+
+Course development, grading, and office hours.
+
+## Fall 2024
+
+### ASRM 455 · Predictive Analytics
+
+Course development, grading, and office hours.
