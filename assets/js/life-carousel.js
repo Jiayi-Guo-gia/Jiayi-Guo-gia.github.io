@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".life-gallery"),t=document.querySelector(".life-carousel-prev"),c=document.querySelector(".life-carousel-next");if(!e||!t||!c)return;const n=t=>{e.scrollBy({left:t*e.clientWidth*.82,behavior:"smooth"})};t.addEventListener("click",()=>n(-1)),c.addEventListener("click",()=>n(1))});
