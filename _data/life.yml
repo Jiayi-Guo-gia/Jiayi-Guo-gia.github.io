@@ -1,3 +1,16 @@
-# Add real photos here after placing the image files in assets/img/life/.
-# Each entry needs image, alt, and caption. See docs/MY_LIFE.md.
-photos: []
+photos:
+  - image: /assets/img/life/raspberry-cake-and-flowers.jpg
+    alt: Homemade raspberry cake beside pink roses and purple flowers
+    caption: Raspberry cake and flowers
+  - image: /assets/img/life/raspberry-mousse-cake.jpg
+    alt: A slice of raspberry mousse cake topped with fresh raspberries
+    caption: Raspberry mousse cake
+  - image: /assets/img/life/berry-cake-squares.jpg
+    alt: Homemade berry cake squares topped with raspberries and blueberries
+    caption: Berry cake squares
+  - image: /assets/img/life/raisin-scones.jpg
+    alt: Freshly baked raisin scones on a baking tray
+    caption: Fresh from the oven
+  - image: /assets/img/life/matcha-swirl-bread.jpg
+    alt: A close-up of homemade matcha swirl bread
+    caption: Matcha swirl bread
