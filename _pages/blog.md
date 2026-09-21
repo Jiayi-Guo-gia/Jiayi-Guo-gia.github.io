@@ -17,16 +17,26 @@ nav_order: 6
 
 {% if site.data.life.photos.size > 0 %}
 
-<div class="life-gallery">
-  {% for photo in site.data.life.photos %}
-  <figure>
-    <a href="{{ photo.image | relative_url }}" aria-label="{{ photo.alt | escape }}">
-      <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
-    </a>
-    <figcaption>{{ photo.caption | escape }}</figcaption>
-  </figure>
-  {% endfor %}
+<div class="life-carousel">
+  <div class="life-carousel-controls" aria-label="Photo gallery controls">
+    <p>Scroll to explore · 5 bakes</p>
+    <div>
+      <button class="life-carousel-button life-carousel-prev" type="button" aria-label="Previous photo">←</button>
+      <button class="life-carousel-button life-carousel-next" type="button" aria-label="Next photo">→</button>
+    </div>
+  </div>
+  <div class="life-gallery" tabindex="0" aria-label="Baking photo gallery">
+    {% for photo in site.data.life.photos %}
+    <figure>
+      <a href="{{ photo.image | relative_url }}" aria-label="Open full-size image: {{ photo.alt | escape }}">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+      </a>
+      <figcaption><span>{{ forloop.index | prepend: '0' }}</span>{{ photo.caption | escape }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
 </div>
+<script src="{{ '/assets/js/life-carousel.js' | relative_url }}" defer></script>
 {% else %}
 <p class="life-empty">Photos from my kitchen will be shared here soon.</p>
 {% endif %}

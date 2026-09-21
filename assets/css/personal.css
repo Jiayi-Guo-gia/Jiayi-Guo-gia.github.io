@@ -105,18 +105,101 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
-.life-gallery,
 .life-posts {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
 }
 
-.life-gallery figure {
-  margin: 0;
+.life-carousel {
+  margin-top: 1.5rem;
 }
 
-.life-gallery img,
+.life-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.life-carousel-controls p {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.life-carousel-button {
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1px solid var(--personal-border);
+  border-radius: 50%;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  cursor: pointer;
+}
+
+.life-carousel-button:hover,
+.life-carousel-button:focus-visible {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.life-gallery {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0 0 1.1rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: var(--global-theme-color) var(--personal-soft);
+  scrollbar-width: thin;
+}
+
+.life-gallery::-webkit-scrollbar {
+  height: 0.55rem;
+}
+
+.life-gallery::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: var(--personal-soft);
+}
+
+.life-gallery::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--global-theme-color);
+}
+
+.life-gallery figure {
+  flex: 0 0 auto;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.life-gallery a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: min(64vh, 34rem);
+  min-height: 24rem;
+  padding: 0.7rem;
+  border: 1px solid var(--personal-border);
+  border-radius: 0.8rem;
+  background: var(--personal-soft);
+}
+
+.life-gallery img {
+  display: block;
+  width: auto;
+  max-width: min(76vw, 42rem);
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.6rem;
+}
+
 .life-entry img {
   display: block;
   width: 100%;
@@ -132,6 +215,38 @@ a:focus-visible {
   font-size: 0.85rem;
 }
 
+.life-gallery figcaption span {
+  margin-right: 0.6rem;
+  color: var(--global-theme-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.social .contact-icons {
+  font-size: 2rem;
+}
+
+.social .contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 0.25rem;
+  vertical-align: middle;
+}
+
+.social .contact-icons a i {
+  font-size: 2rem;
+}
+
+.social .contact-icons a img,
+.social .contact-icons a svg,
+.social .contact-icons a svg image {
+  width: 2rem !important;
+  height: 2rem !important;
+  margin-bottom: 0 !important;
+}
+
 .life-empty {
   padding: 1.4rem 0;
   border-top: 1px solid var(--personal-border);
@@ -139,9 +254,17 @@ a:focus-visible {
 }
 
 @media (max-width: 575px) {
-  .life-gallery,
   .life-posts {
     grid-template-columns: 1fr;
+  }
+
+  .life-gallery a {
+    height: min(62vh, 29rem);
+    min-height: 20rem;
+  }
+
+  .life-gallery img {
+    max-width: 82vw;
   }
 
   .post-header {
