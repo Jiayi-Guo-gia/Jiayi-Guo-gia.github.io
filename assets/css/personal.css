@@ -105,13 +105,34 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
-.life-empty {
-  padding: 1.4rem 0;
-  border-top: 1px solid var(--personal-border);
-  border-bottom: 1px solid var(--personal-border);
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.life-gallery figure {
+  margin: 0;
+}
+
+.life-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.life-gallery figcaption {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 575px) {
+  .life-gallery {
+    grid-template-columns: 1fr;
+  }
 
   .post-header {
     margin-top: 1rem;

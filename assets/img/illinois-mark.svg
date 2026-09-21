@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Illinois profile</title>
+  <rect width="64" height="64" rx="12" fill="#13294b"/>
+  <path d="M18 12h28v10h-6v20h6v10H18V42h6V22h-6V12Z" fill="#ff5f05"/>
+</svg>
